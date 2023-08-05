@@ -34,11 +34,11 @@ class CircularQueue():
 			temp=self.queue[self.front]
 			self.front = -1
 			self.rear = -1
-			return temp
+			
 		else:
 			temp = self.queue[self.front]
 			self.front = (self.front + 1) % self.size
-			return temp
+			
 
 	def display(self):
 	
